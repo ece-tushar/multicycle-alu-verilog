@@ -26,12 +26,37 @@ The design is divided into two main components:
 ##  Design Diagrams
 
 ### Datapath
-![Datapath](docs/datapath.png)
+![Datapath](images/datapath.png)
 
 ### FSM
-![FSM](docs/fsm.png)
+![FSM](images/fsm.png)
 
 ---
+##  Simulation
+
+Representative waveforms demonstrating key operations:
+
+---
+
+### SUB Operation
+![SUB](images/waveform_sub.png)
+
+---
+
+### SRL (Shift Right Logical)
+![UMUL](images/waveform_umul.png)
+
+---
+
+### UMUL (Unsigned Multiplication)
+<img src="docs/waveform_umul.png" width="70%">
+
+The UMUL waveform highlights the multicycle behavior:
+- Iterative shift-add execution across states  
+- `AMout` shifts left and `BMout` shifts right  
+- Accumulation occurs based on `LsbB`  
+- `Bzflag` indicates loop termination  
+
 
 ##  Datapath Evolution
 
@@ -42,7 +67,11 @@ The datapath was developed incrementally:
 3. Integration of shift unit  
 4. Extension to support iterative multiplication  
 
-![Evolution](docs/datapath_evolution.png)
+![Evolution1](images/datapath_evo1.png)
+![Evolution2](images/datapath_evo2.png)
+![Evolution3](images/datapath_evo3.png)
+![Evolution4](images/datapath_evo4.png)
+![Evolution5](images/datapath_evo5.png)
 
 ---
 
