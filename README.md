@@ -126,7 +126,7 @@ The control signal `add_sub` was generated as a combinational output from the co
 As a result, `add_sub` reverted to its default value in S5 before the output was captured. This caused the ALU to perform a different operation than intended, leading to incorrect results.
 
 #### Fix
-The control signal was ensured to remain stable across both execution and write-back stages. This was achieved by holding or registering the control signal so that the datapath computation remains valid until the result is latched.
+The control signal was ensured to remain stable across both execution and write-back stages. This was achieved by holding the control signal so that the datapath computation remains valid until the result is latched.
 
 ---
 
