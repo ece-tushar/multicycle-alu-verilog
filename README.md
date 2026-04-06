@@ -44,7 +44,7 @@ Representative waveforms demonstrating key operations:
 ---
 
 ### SRL (Shift Right Logical)
-![UMUL](images/waveform_umul.png)
+![UMUL](images/waveform_srl.png)
 
 ---
 
