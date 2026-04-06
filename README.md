@@ -72,6 +72,7 @@ The datapath was developed incrementally:
 ![Evolution3](images/datapath_evo3.png)
 ![Evolution4](images/datapath_evo4.png)
 ![Evolution5](images/datapath_evo5.png)
+![Evolution6](images/mulblock.png)
 
 ---
 
