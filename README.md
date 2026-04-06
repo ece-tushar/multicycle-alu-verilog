@@ -10,7 +10,7 @@ The design supports:
 - Logical operations
 - Shift operations
 - Comparison operations
-- Iterative unsigned multiplication using the **shift-add algorithm**
+- **Iterative** unsigned multiplication using the **shift-add algorithm**
 
 ---
 
