@@ -49,7 +49,7 @@ Representative waveforms demonstrating key operations:
 ---
 
 ### UMUL (Unsigned Multiplication)
-<img src="docs/waveform_umul.png" width="70%">
+![UMUL](images/waveform_umul.png)
 
 The UMUL waveform highlights the multicycle behavior:
 - Iterative shift-add execution across states  
